@@ -8,3 +8,10 @@ function lowerCaseDrivers(driverArray){
   
   return lowerCasedArray;
 }
+
+function nameToAttributes(driverArray){
+  
+  const driverObjects = driverArray.map( function(driver){
+    
+  })
+}
