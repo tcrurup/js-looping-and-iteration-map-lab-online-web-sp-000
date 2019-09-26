@@ -2,11 +2,5 @@
 
 function lowerCaseDrivers(driverArray){
   
-  const lowerCaseArray = []
-  
-  for (const driver of driverArray){
-    lowerCaseArray.push(driver.toLowerCase())
-  }
-  
-  return lowerCaseArray;
+  return driverArray.map{}
 }
