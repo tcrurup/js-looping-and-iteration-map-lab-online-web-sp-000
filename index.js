@@ -2,7 +2,7 @@
 
 function lowerCaseDrivers(driverArray){
   
-  const lowerCasedArray = driverArray.map( function(driver){
+  const lowerCasedArray = driverArray.map(function(driver){
     return driver.toLowerCase();
   });
   
@@ -11,7 +11,7 @@ function lowerCaseDrivers(driverArray){
 
 function nameToAttributes(driverArray){
   
-  const driverObjects = driverArray.map( function(driver){
+  const driverObjects = driverArray.map(function(driver){
     
   })
 }
