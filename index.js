@@ -13,6 +13,7 @@ function nameToAttributes(driverArray){
   
   const driverObjectsArray = driverArray.map(function(driver){
     
+    splitName = driver.split(" ")
     driverObject = {
       firstName: 
     }
