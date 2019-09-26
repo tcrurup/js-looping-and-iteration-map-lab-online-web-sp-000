@@ -15,7 +15,8 @@ function nameToAttributes(driverArray){
     
     splitName = driver.split(" ")
     driverObject = {
-      firstName: 
+      firstName: splitName[0],
+      lastName: splitName[1]
     }
   });
 }
