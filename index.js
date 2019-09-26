@@ -26,5 +26,7 @@ function nameToAttributes(driverArray){
 
 function arrtibutesToPhrase(driverObjects){
   
-  const driverInfoString = 
+  const driverInfoString = driverObjects.map(function(driver){
+    return `${driver.name} is from ${driver.hometown}`
+  });
 }
