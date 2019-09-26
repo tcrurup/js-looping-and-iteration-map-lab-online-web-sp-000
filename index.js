@@ -13,5 +13,5 @@ function nameToAttributes(driverArray){
   
   const driverObjects = driverArray.map(function(driver){
     
-  })
+  });
 }
