@@ -2,7 +2,9 @@
 
 function lowerCaseDrivers(driverArray){
   
-  return driverArray.map( function(driver){
+  lowerCasedArray = driverArray.map( function(driver){
     return driver.toLowerCase();
   })
+  
+  return lowerCasedArray;
 }
