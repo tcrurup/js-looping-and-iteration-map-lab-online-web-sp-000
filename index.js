@@ -12,7 +12,6 @@ function lowerCaseDrivers(driverArray){
 function nameToAttributes(driverArray){
   
   const driverObjectsArray = driverArray.map(function(driver){
-    
     const splitName = driver.split(" ");
     const driverObject = {
       firstName: splitName[0],
@@ -23,4 +22,9 @@ function nameToAttributes(driverArray){
   });
   
   return driverObjectsArray;
+}
+
+function arrtibutesToPhrase(driverObjects){
+  
+  const driverInfoString = 
 }
